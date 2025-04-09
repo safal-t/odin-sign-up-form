@@ -10,7 +10,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
-<body class="open-sans">
-    <h1>TEST font</h1>
+<body>
+    <div class="image-container">
+        <img src="img.jpg" alt="image">
+        <!-- Photo by <a href="https://unsplash.com/@tsd_studio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">TSD Studio</a> on <a href="https://unsplash.com/photos/a-persons-hand-holding-a-glowing-brain-model-9_jvKRbNdTM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> -->
+    </div>
+    <div class="content-container">
+        <div class="form-neighbour-top">
+            <p>This is not a real online service! All computers need upgrades, even the most powerful one. <br><br> It's time to level up</p>
+        </div>
+        <div class="form-container">
+            <div class="form-title">Lets do this.</div>
+            <form action="/" method="post" id="form">
+                
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="tel">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="input-group">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="confirm-password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="form-neighbour-bottom">
+            <button type="submit" form="form">Create Account</button>
+            <p>Already have an account? <a>Log in</a></p>
+        </div>
+    </div>
 </body>
 </html>

@@ -9,5 +9,95 @@ html , body{
 } 
 
 body {
-    font-family: "Bitter", serif;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 3rem;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+img {
+    height: 100vh;
+}
+
+.form-neighbour-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 8%, 97%);
+    height: 35vh;
+    padding:50px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    height: calc(100vh - 70vh);
+    padding: 30px;
+}
+
+
+
+form * {
+    line-height: 1.5;
+}
+
+.form-title {
+    font-size: 3rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+.form-row { 
+    display: flex;
+    padding: 30px;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+input {
+    border-radius: 10px;
+    border:1px solid #ede9e9;
+    width: 500px;
+    height: 60px;
+    font-size: 2rem;
+    padding: 10px
+}
+
+button {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.form-neighbour-bottom {
+    padding: 50px;
+    background-color: hsl(0, 8%, 97%);
+    height: 35vh;
+    font-size: 2rem;
+}
+
+a {
+    color: #596D48;
+}
+
+input:invalid {
+    border: 1px solid firebrick;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 10px 10px 3px #1c1c1b;
 }
